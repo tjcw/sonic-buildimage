@@ -80,7 +80,7 @@ trap on_error ERR
 
 kvm_pid=$!
 
-sleep 2.0
+sleep 5.0
 
 [ -d "/proc/$kvm_pid" ] || {
         echo "ERROR: kvm died."
